@@ -1,0 +1,40 @@
+
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  background-color: rgb(0, 0, 0, .9);
+  top: 0;
+  z-index: 10;
+}
+
+.item-navbar {
+  font-weight: 500;
+  width: 90px;
+  height: 40px;
+  margin: 0 5px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+  &:hover {
+  background-color: #151B32;
+}
+}
+
+.item-navbar a {
+  color: #036BDF;
+}
+.inactive {
+  text-decoration: none;
+}
+.active {
+  text-decoration: underline;
+}
+
+#profile-picture-navbar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}

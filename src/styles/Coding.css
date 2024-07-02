@@ -1,0 +1,49 @@
+.width-content {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.generic-box {
+  width: 70%;
+  margin: 50px auto;
+}
+
+.box-title {
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.about-info {
+  background-color: #080F28;
+  padding: 20px 40px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  line-height: 2;
+  font-size: 22px;
+  font-weight: 200;
+}
+
+@media screen and (max-width:770px) {
+  .generic-box {
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  .about-info {
+    font-size: 16px;
+  }
+
+}
+
+.carousel-container {
+  border-radius: 5px;
+  background-color: rgb(200, 200, 200);
+}
+
+.contact-container {
+  background-color: #080F28;
+  border-radius: 5px;
+  margin-top: -5px;
+  padding: 20px;
+}

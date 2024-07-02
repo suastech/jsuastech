@@ -1,0 +1,153 @@
+[
+  {
+    "title": "El país del dolor",
+    "subtitle":"Historia del Movimiento por la Paz con Justicia y Dignidad",
+    "date": "2017/12/01",
+    "infoEdition":"Ediciones Proceso. México",
+    "url": "",
+    "extra": "",
+    "type": "book",
+    "peer": null
+  },
+  {
+    "title": "Jesús Suaste, Mark Young & Govert Schuler, editors. Democratizar el dinero",
+    "subtitle":"Una introducción a la Reform del Dinero Soberano",
+    "date": "2020/07/01",
+    "infoEdition": "Alliance for Just Money. Bloomington-Normal",
+    "url": "https://www.monetaryalliance.org/democratizar-el-dinero/",
+    "extra": "",
+    "type": "book",
+    "peer": null
+  },
+  {
+    "title": "From Commodities to Assets",
+    "subtitle":"Capital as Power and the Ontology of Finance",
+    "date":"2021/05/01",
+    "infoEdition":"Review of Capital as Power",
+    "url": "https://bnarchives.yorku.ca/687/",
+    "extra": "Winner of the 2021 RECASP Essay Prize",
+    "type": "article",
+    "peer": true
+  },
+  {
+    "title": "Estudiar el precio, olvidar el valor",
+    "subtitle":"Una alternativa al pensamiento económico tradicional",
+    "date": "2023/07/01",
+    "infoEdition":"Sudamérica. Revista de ciencias sociales. Num. 18. pp.55-79. Buenos Aires",
+    "url": "https://fh.mdp.edu.ar/revistas/index.php/sudamerica/article/view/6877",
+    "extra": "",
+    "type": "article",
+    "peer": true
+  },
+  {
+    "title": "Originalidad del plagio",
+    "subtitle":"Elogio de la tesis de Yasmín Esquivel, de Edgar Ulises Báez",
+    "date": "2023/01/18",
+    "infoEdition":"Revista Este País. México", 
+    "url": "https://estepais.com/tendencias_y_opiniones/originalidad-plagio/",
+    "extra": "",
+    "type": "article",
+    "peer": false
+  },
+  {
+    "title": "Si Zapata viviera con los muertos estuviera",
+    "subtitle": "Reflexiones a siete años del Movimiento por la Paz con Justicia y Dignidad",
+    "date": "2020/01/01",
+    "infoEdition":"In Torres, René. En busca de la democracia. Pensando la movilización social en tiempos de grandes cambios. Universidad Iberoamericana. México",
+    "url": "",
+    "extra": "",
+    "type": "article",
+    "peer": true
+  },
+  {
+    "title": "Manifiesto por la desaparición de las palabras",
+    "subtitle": "Sobre los progresos de la inteligencia artificial",
+    "date": "2023/03/14",
+    "infoEdition":"Revista Este País. México",
+    "url": "https://estepais.com/cultura/medios/manifiesto-inteligencia-artificial",
+    "extra": "",
+    "type": "article",
+    "peer": false
+  },
+  {
+    "title": "El Tinder de la Facultad de Ciencias Políticas y Sociales",
+    "subtitle": "Etnografía de las buenas costumbres",
+    "date": "2023/04/03",
+    "infoEdition":"Revista Común. México",
+    "url": "https://revistacomun.com/blog/el-tinder-de-la-facultad-de-ciencias-politicas-y-sociales-etnografia-de-las-buenas-costumbres",
+    "extra": "",
+    "type": "article",
+    "peer": false
+  },
+  {
+    "title": "Sólo los filósofos saben cómo hacer dinero",
+    "subtitle": "Prólogo",
+    "date": "2021/01/01",
+    "infoEdition":"In Ole Bjerg. “Hacer dinero. Filosofía del capitalismo postcrédito”. Athos. Copenhagen",
+    "url": "",
+    "extra": "",
+    "type": "article",
+    "peer": false
+  },
+  {
+    "title": "Llevar paraguas al tsunami",
+    "subtitle": "Derroteros de la política en el México postpandemia",
+    "date": "2020/07/02",
+    "infoEdition":"Revista Proceso online",
+    "url": "https://www.proceso.com.mx/opinion/2020/7/2/llevar-paraguas-al-tsunami-derroteros-de-la-politica-en-el-mexico-post-pandemia-245498.html",
+    "extra": "",
+    "type": "article",
+    "peer": false
+  },
+  {
+    "title": "Meditaciones en la antesala del regreso a la anormalidad",
+    "subtitle": "",
+    "date": "2020/09/01",
+    "infoEdition":"Revista Proceso. Edición Especial. Hacia el futuro postcovid ¿Qué más cambiará? México",
+    "url": "https://www.kichink.com/buy/2451316/proceso/edicion-especial-no-59-hacia-el-futuro-poscovid",
+    "extra": "",
+    "type": "article",
+    "peer": false
+  },
+  {
+    "title": "Democratizar el dinero. Una agenda pendiente",
+    "subtitle": "",
+    "date": "2020/07/01",
+    "infoEdition":"In Jesús Suaste, Mark Young & Govert Schuler (eds). Democratizar el dinero. Una introducción a la Reforma del Dinero Soberano. Alliance for Just Money. Bloomington-Normal",
+    "url": "https://www.monetaryalliance.org/democratizar-el-dinero/",
+    "extra": "",
+    "type": "article",
+    "peer": false
+  },
+  {
+    "title": "Viaje al centro del capitalismo",
+    "subtitle": "Presentación de la versión en español de Capitalismo de deuda",
+    "date": "2020/09/01",
+    "infoEdition":"In Tim Di Muzio and Richard Robbins. Capitalismo de deuda. Una lectura crítica de la crisis global del endeudamiento",
+    "url": "",
+    "extra": "",
+    "type": "article",
+    "peer": false
+  },
+  {
+    "title": "Una teoría de la acumulación realmente existente",
+    "subtitle": "",
+    "date": "2017/03/01",
+    "infoEdition":"Revista Memoria, No. 267 (pp. 78-82), Centro de Estudios del Movimiento Obrero y Socialista, México",
+    "url": "",
+    "extra": "",
+    "type": "article",
+    "peer": false
+  },
+  {
+    "title": "“El futbol como manual de economía”",
+    "subtitle": "",
+    "date": "31/12/2017",
+    "infoEdition":" Revista Proceso, No. 2200 (pp. 77-80). México",
+    "url": "www.revistasinrecreo.com/wp-content/uploads/2018/12/REVISTA-PROCESO-29122018.pdf",
+    "extra": "",
+    "type": "article",
+    "peer": false
+  }  
+
+]

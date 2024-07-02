@@ -1,0 +1,57 @@
+[
+  {
+    "title": "Amlo Dice",
+    "image": ["/amlodiceV.png", "/amlodice.png"],
+    "description":  ["This site is a search engine that allows users to find text strings within a database of more than 2600 official speeches of the Mexican presidency.",
+                      "It counts the number of repetitions for each year and shows the exact quote in which it was said.", "Useres can download the data of frequent searches in xml or csv, as well as a report with all the quotations of a certain string.",
+                      "To download the transcripts I used Pupeteer and converted them into a Postgresql database.",
+                      "An extra feature I enjoyed developing is my own encrypted system of passwords that validate database calls and expire in about 5 seconds."],
+    "githubLink": "https://github.com/suastech/discursosamlo",
+    "deployLink": "https://amlodice.vercel.app/",
+    "techs": ["React", "Prisma", "PostgreSql", "Chart JS", "Puppeteer"]
+  },
+  {
+    "title": "El Terraplanista",
+    "image": ["/terraplanistaV.png", "/terraplanista.png"],
+    "description":  ["El Terraplanista (literally: The Flatearther) is a celebration of the triumph of nonsense in politics, journalism and social media.", 
+                    "It compiles some of the most hilarious and absurd phrases in Mexican and international politics. (As when a Mexican politician said in his campaign: 'Politicians should not steal too much... I hope I don't steal anything').", 
+                    "Since 2021, the printed version of this project has been part of the monthly edition of 'El Chamuco', one of the most widely circulated political satire magazines in Mexico.",
+                    "This was the first application I published, approximately in August 2023. The site is hosted on Github."],
+    "githubLink": "https://github.com/suastech/elterraplanista",
+    "deployLink": "https://suastech.github.io/elterraplanista/",
+    "techs": ["React"]
+  },
+  {
+    "title": "Contracanto",
+    "image": ["/contracantoV.png", "/contracanto.png"],
+    "description":  ["Contracanto is a choir founded by my brother in a small town in Mexico called Atlacholoaya. It is a group of talented and brave Mexican teenage girls, who since 2023 are working hard to make their way to the stages of Mexico and the world.",
+                      "On this website you can listen to their music, find out about their upcoming concerts and support them in their journey."],
+    "githubLink": "https://github.com/suastech/contracanto",
+    "deployLink": "https://suastech.github.io/contracanto/",
+    "techs": ["React"]
+  },
+  {
+    "title": "Artist Connection",
+    "image": ["/artistV.png", "/artist.png"],
+    "description":  ["On this project I teamed up with my colleague and super talented programmer Greg.",
+                     "The site simulates a social network that allows you to directly contact your local artists. Users can register as artists offering their services, or just as music-lovers looking to contact an artist.", 
+                     "Users can book concerts and find on the map the events closest to their location thanks to the geolocation system.",
+                     "We incorporated web sockets technology, which allowed us to build a real-time chat as well as a system to receive notifications as you are online.",
+                     "Our project was selected to participate in the Hackshow, organized by Ironhack."
+                    ],
+    "githubLink": "https://github.com/orgs/mitte-script-society/repositories",
+    "deployLink": "https://artist-connection.netlify.app/",
+    "techs": ["React", "MongoDB", "Express", "NodeJS", "Socket.io", "Mongoose", "Tailwind"]
+  },
+  {
+    "title": "The Points System",
+    "image": ["/pointsV.png", "/points.png"],
+    "description":  ["The Points System rates people's performance in their love relationships.",
+                      "Just enter your data and it will generate a report that (not so) scientifically and (not entirely) objectively measures your (extraordinary) qualities as a partner.", "In addition to NextJs, I use the CryptoJS library to create and read the link with the information tailored to each user's request.",
+                      " You are welcome to visit the site and find out your relationship score on The Points System.",
+                      "The most fun was creating the simulation that the site is hacking your personal data (messages from your ex included) in a retro style."],
+    "githubLink": "https://github.com/suastech/the-points-system",
+    "deployLink": "https://the-points-system.netlify.app/",
+    "techs": ["React", "NextJS", "Recharts"]
+  }
+]

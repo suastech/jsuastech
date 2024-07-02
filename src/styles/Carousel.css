@@ -1,0 +1,141 @@
+
+.carousel {
+  background-color: #0d1121;
+}
+
+.project-header {
+  position: relative;
+  font-size: 30px;
+  text-align: left;
+  z-index: 2;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+}
+
+.project-header a{
+  text-decoration: none;
+  color: white;
+    &:hover {
+      text-decoration: underline;
+      text-decoration-thickness: 2px;
+    }
+}
+
+#github-container {
+  margin-right: 10px;
+  &:hover {
+    transform: scale(1.2);
+  }
+}
+
+#github-logo {
+  height: 30px;
+  width: auto;
+  cursor: pointer;
+  display: block;  
+}
+
+.body-project-space {
+  display: flex;
+  color: white;
+  line-height: 1.5;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+.image-project-container {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.project-description {
+  width: 70%;
+  text-align: left;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+}
+.project-description li {
+  margin: 0px 20px 0px 0px;
+}
+
+.image-project-container img {
+  width: 85%;
+  height: auto;
+  max-height: 400px;
+  cursor: pointer;
+  border-radius: 5px;
+  &:hover {
+    transform: scale(1.03);
+  }
+}
+
+.slide-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  padding: 0 10px 30px 10px;
+  margin: 5px 0;
+}
+
+.tech-item {
+  padding: 4px 10px;
+  font-size: 14px;
+  background-color: #036BDF;
+  color: white;
+  margin: 5px 5px 5px 0;
+  border-radius: 20px;
+}
+
+.thumbs {
+  justify-content: center;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  cursor: pointer;
+} 
+
+@media screen and (max-width:770px) {
+  .project-header {
+    font-size: 20px;
+    padding: 10px 20px;
+  }
+  #github-logo {
+    height: 20px;
+  }
+  .body-project-space {
+    flex-direction: column;
+  }
+  .image-project-container {
+    width: 100%;
+    padding-top: 0;
+  }
+  .project-description {
+    width: 100%;
+    font-size: 14px;
+    line-height: 1.4;
+    margin-top: 20px;
+  }
+  .project-description li {
+    margin: 3px 0;
+  }
+  .image-project-container img {
+    width: 95%;
+  }
+  .tech-item {
+    font-size: 11px;
+    padding: 2px 5px;
+
+  }
+  
+
+}
