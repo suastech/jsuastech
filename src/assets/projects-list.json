@@ -1,7 +1,7 @@
 [
   {
     "title": "Amlo Dice",
-    "image": ["/amlodiceV.png", "./images/amlodice.png"],
+    "image": ["/amlodiceV.png", "./amlodice.png"],
     "description":  ["This site is a search engine that allows users to find text strings within a database of more than 2600 official speeches of the Mexican presidency.",
                       "It counts the number of repetitions for each year and shows the exact quote in which it was said.", "Useres can download the data of frequent searches in xml or csv, as well as a report with all the quotations of a certain string.",
                       "To download the transcripts I used Pupeteer and converted them into a Postgresql database.",
