@@ -37,7 +37,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Coding/>}  />
         <Route path="/academia" element={<Academia/>} />
-        <Route path="/cv" element={<PDFViewer/>} />
+        <Route path="/cv/:type" element={<PDFViewer/>} />
       </Routes>
 
 {/*     <Footer/>

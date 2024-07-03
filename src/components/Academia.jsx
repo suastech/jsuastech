@@ -2,6 +2,9 @@ import '../styles/Academia.css'
 import publications from '../assets/publications-list.json'
 import { useState } from 'react';
 import arrow from '../assets/images/arrow.png'
+import { Link } from 'react-router-dom';
+import cvImage from '../assets/images/cv.png'
+
 
 function renderItem({item, index}) {
   return (
@@ -36,6 +39,9 @@ export default function Academia() {
         <div className='personal-header' onClick={ () => {setIsAbout(prev => !prev)}}>
           <h1>About</h1>
           <img src={arrow} className={isAbout? 'rotate-arrow': ''}/>
+          <Link to="/cv/academia" className="link-cv-academia">     
+            <img src={cvImage} className='cv-academia' style={{height:"35px", width: "auto", marginTop:"15px"}} />
+          </Link>
         </div>
         
         <h5>I am a sociologist and philosopher based in Berlin. I have published refereed articles and political analysis in various journals. I have conducted research on social movements.

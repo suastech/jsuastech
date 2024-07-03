@@ -74,6 +74,18 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+.back-button {
+  width: 40px;
+  position: absolute;
+  left: 20px;
+  top: 100px;
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.2);
+  }
+
+}
+
 @media screen and (max-width:770px) {
   .side-bar img {
     width: 25px;

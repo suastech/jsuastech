@@ -1,6 +1,8 @@
 import '../styles/Coding.css';
 import CarouselProjects from './CarouselProjects';
 import CallToAction from './CallToAction';
+import cvImage from '../assets/images/cv.png'
+import { Link } from 'react-router-dom';
 
 export default function Coding() {
 
@@ -11,7 +13,14 @@ export default function Coding() {
     <div className='width-content'>
     
       <div className='generic-box'>
-        <div className='box-title'>About</div>
+        <div className='box-title'>
+          About
+          <Link to="/cv/coding" >     
+            <img src={cvImage} className='cv-coding'/>
+          </Link>
+
+        </div>
+      
         <div className='about-info'>
           My journey in coding began in 2023. In June 2024 I finished a certification course specialized in Web Development.
           <br/>

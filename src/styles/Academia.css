@@ -8,6 +8,17 @@
   background-color: #151B32;
   border-radius: 10px;
 }
+.link-cv-academia {
+  margin-left: auto;
+  padding: 0;
+}
+
+.cv-academia {
+
+  &:hover {
+    transform: scale(1.1);
+  }  
+}
 
 .personal-close {
   height: 60px;
