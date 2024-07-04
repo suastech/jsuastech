@@ -42,8 +42,8 @@ return (
   <div className="carousel-container">
     <Carousel
       infiniteLoop={true}
-      interval={3000}
-      /*   autoPlay={true}*/
+      interval={5000}
+      autoPlay={true}
       stopOnHover={true}
       renderThumbs={renderThumbs}
       showStatus={false}
@@ -53,9 +53,9 @@ return (
       <div key={index} className="project-card">
         
         <div className="project-header">
-          <div style={{display:"flex", alignItems:"baseline"}}>
+          <div style={{display:"flex", alignItems:"center"}}>
           <a href={project.deployLink} target="_blank">{project.title}</a>
-          <a href={project.deployLink} target="_blank"><div id="open-container"><img style={{width:"100%", hight:"auto"}} src={open} alt="open-icon"/></div></a>
+          <a href={project.deployLink} target="_blank" style={{marginTop:"5px"}}><div id="open-container"><img style={{width:"100%", hight:"auto"}} src={open} alt="open-icon"/></div></a>
           </div>
 
           <a href={project.githubLink} target="_blank" id="github-container" ><img id="github-logo"src={github} alt="githubIcon"/></a>

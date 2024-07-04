@@ -22,7 +22,7 @@
   border-radius: 1px;
   cursor: pointer;
   width: 25px;
-  margin-left: 20px;
+  margin-left: 25px;
   &:hover {
     transform: scale(1.1);
   }
