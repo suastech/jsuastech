@@ -23,7 +23,6 @@
   cursor: pointer;
   width: 25px;
   margin-left: 20px;
-  margin-top: 10px;
   &:hover {
     transform: scale(1.1);
   }
@@ -126,7 +125,6 @@
   }
   #open-container {
     margin-left: 5px;
-    margin-top: 7px;
     width: 18px;
     border: 1px solid rgb(255, 255, 255);
 

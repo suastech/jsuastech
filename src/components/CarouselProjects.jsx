@@ -53,7 +53,7 @@ return (
       <div key={index} className="project-card">
         
         <div className="project-header">
-          <div style={{display:"flex"}}>
+          <div style={{display:"flex", alignItems:"baseline"}}>
           <a href={project.deployLink} target="_blank">{project.title}</a>
           <a href={project.deployLink} target="_blank"><div id="open-container"><img style={{width:"100%", hight:"auto"}} src={open} alt="open-icon"/></div></a>
           </div>
