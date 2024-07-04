@@ -29,7 +29,7 @@ function App() {
               <img src={github} alt="github" onClick={() => window.open('https://github.com/suastech', '_blank')}/>
               <img src={linkedin} alt="linkedin" onClick={() => window.open('https://www.linkedin.com/in/suastech/', '_blank')}/>
               <img src={twitter} alt="x" onClick={() => window.open('https://x.com/suaste86', '_blank')}/>
-              <img src={email} alt="email"/>
+              {/*<img src={email} alt="email"/>*/}
             </>
           }
         </div>

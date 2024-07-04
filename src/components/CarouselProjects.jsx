@@ -3,6 +3,8 @@ import "../styles/Carousel.css";
 import { Carousel } from "react-responsive-carousel";
 import projects from "../assets/projects-list.json";
 import github from "../assets/images/github.png";
+import open from "../assets/images/open.png";
+
 import { useEffect, useState } from "react";
 
 function CarouselProjects() {
@@ -51,7 +53,11 @@ return (
       <div key={index} className="project-card">
         
         <div className="project-header">
+          <div style={{display:"flex"}}>
           <a href={project.deployLink} target="_blank">{project.title}</a>
+          <a href={project.deployLink} target="_blank"><div id="open-container"><img style={{width:"100%", hight:"auto"}} src={open} alt="open-icon"/></div></a>
+          </div>
+
           <a href={project.githubLink} target="_blank" id="github-container" ><img id="github-logo"src={github} alt="githubIcon"/></a>
         </div>
 
