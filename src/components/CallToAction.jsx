@@ -84,7 +84,7 @@ export default function CallToAction() {
           gutterBottom
         ></Typography>
         <form ref={formRef} onSubmit={handleSubmit}>
-          <div style={{ display: "flex" }}>
+          <div className="input-wrap"  >
             <TextField
               fullWidth
               margin="normal"
@@ -121,9 +121,11 @@ export default function CallToAction() {
               type="email"
               value={formData.email}
               onChange={handleChange}
+              id="email-input"
+             
               required
               sx={{
-                ml: "10px",
+                ml: { xs: 0, sm: '5px' },
                 "& .MuiInputBase-root": {
                   color: "white",
                 },
@@ -156,6 +158,7 @@ export default function CallToAction() {
             onChange={handleChange}
             required
             sx={{
+
               "& .MuiInputBase-root": {
                 color: "white",
               },
@@ -175,7 +178,7 @@ export default function CallToAction() {
               },
             }}
           />
-          <Button variant="contained" color="primary" type="submit">
+          <Button variant="contained" color="primary" type="submit" sx={{m: "10px"}}>
             Submit
           </Button>
         </form>
