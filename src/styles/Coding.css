@@ -45,9 +45,19 @@
     margin-top: 20px;
     margin-bottom: 40px;
   }
+  .box-title {
+    margin-bottom: 0;
+  }
   .about-info {
     font-size: 16px;
+    padding: 10px 20px;
+    line-height: 1.5;
   }
+  .cv-coding {
+    margin-bottom: -2px;
+    height: 30px;  
+  }
+
 }
 
 .carousel-container {
