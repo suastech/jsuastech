@@ -3,7 +3,6 @@ import {Routes, Route}  from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Coding from './components/Coding';
 import Academia from './components/Academia';
-import Footer from './components/Footer'
 import PDFViewer from './components/PDFViewer';
 import { useState } from 'react';
 import menu from './assets/images/plus.png'
@@ -22,7 +21,7 @@ function App() {
       
         <div onMouseEnter={() => setIsSideBar(true)} onMouseLeave={() => setIsSideBar(false)} className={`side-bar ${isSideBar? "side-open": "side-close" }`}>
           {!isSideBar?
-            <img src={menu} onClick={() => setIsSideBar(true)}/>
+              <img src={menu} onClick={() => setIsSideBar(true)}/>
           :
             <>
               <img src={close} alt="close" onClick={() => setIsSideBar(false)}/>
@@ -40,8 +39,7 @@ function App() {
         <Route path="/cv/:type" element={<PDFViewer/>} />
       </Routes>
 
-{/*     <Footer/>
- */}
+
     </>
   )
 }

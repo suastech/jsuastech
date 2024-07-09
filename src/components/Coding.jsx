@@ -3,6 +3,7 @@ import CarouselProjects from './CarouselProjects';
 import CallToAction from './CallToAction';
 import cvImage from '../assets/images/cv.png'
 import { Link } from 'react-router-dom';
+import about from '../mySelf'
 
 export default function Coding() {
 
@@ -22,12 +23,28 @@ export default function Coding() {
         </div>
       
         <div className='about-info'>
-          My journey in coding began in 2023. In June 2024 I finished a certification course specialized in Web Development.
-          <br/>
-          Here you can check the projects I have developed and deployed, combining my interests and previous background with my skills as a programmer.
-          <br/>
-          Most of my professional life has been linked to academic work. I love to write. I am the author of a book and several articles of political and social analysis. 
+          {about.map( (element,index) => {
+           return (
+            <p key={index}>{element}</p>
+            )
+          })
+          }
+
+            <div className='info-extra'>
+              <div> <b>What I am good at...</b>
+                  <p>Logical reasoning. I like to solve problems that require creativity.</p>
+                  <p>I am not afraid to undertake complex projects and take on new challenges.</p>
+                  <p>I learn fast. I am perseverant and I deliver on time.</p>
+              </div>
+              <div> <b>What I am bad at...</b>
+                  <p>When I speak German, all the portraits of Goethe in Germany cry out in pain.</p>
+                  <p>CSS has caused me to have numerous anger and panic attacks.</p>
+              </div>
+            </div>
+          
         </div>
+
+     
         
         
       </div>
