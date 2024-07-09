@@ -21,7 +21,7 @@ function App() {
       
         <div onMouseEnter={() => setIsSideBar(true)} onMouseLeave={() => setIsSideBar(false)} className={`side-bar ${isSideBar? "side-open": "side-close" }`}>
           {!isSideBar?
-              <img src={menu} onClick={() => setIsSideBar(true)}/>
+            <img src={menu} onClick={() => setIsSideBar(true)}/>
           :
             <>
               <img src={close} alt="close" onClick={() => setIsSideBar(false)}/>

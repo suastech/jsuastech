@@ -46,35 +46,11 @@
 .info-extra {
   display: flex;
   font-size: 22px;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 .info-extra p {
-  margin: 20px 20px;
+  margin: 10px 20px;
   font-size: 18px;
-}
-
-
-
-
-@media screen and (max-width:770px) {
-  .generic-box {
-    width: 90%;
-    margin-top: 20px;
-    margin-bottom: 40px;
-  }
-  .box-title {
-    margin-bottom: 0;
-  }
-  .about-info {
-    font-size: 16px;
-    padding: 10px 20px;
-    line-height: 1.5;
-  }
-  .cv-coding {
-    margin-bottom: -2px;
-    height: 30px;  
-  }
-
 }
 
 .carousel-container {
@@ -92,7 +68,6 @@
 .input-wrap {
   display: flex;
 }
-
 
 .disabled-box {
   opacity: 0.2;
@@ -126,9 +101,49 @@
   }
 }
 
+
+@media screen and (max-width:770px) {
+  .generic-box {
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  .box-title {
+    margin-bottom: 0;
+  }
+  .about-info {
+    font-size: 16px;
+    padding: 10px 20px;
+    line-height: 1.5;
+  }
+  .cv-coding {
+    margin-bottom: -2px;
+    height: 30px;  
+  }
+  .info-extra {
+    font-size: 16px;
+  }
+  .info-extra p {
+    font-size: 14px;
+  }
+  
+}
+
 @media screen and (max-width: 600px) {
   .input-wrap {
     display: block;
+  }
+  .info-extra {
+    font-size: 12px;
+  }
+  .info-extra > div {
+    font-size: 12px;
+    margin: 0 5px;
+  }
+  .info-extra p {
+    margin: 10px 0;
+    font-size: 12px;
+ 
   }
 
 }
