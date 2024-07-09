@@ -40,6 +40,16 @@
     "peer": true
   },
   {
+    "title": "Si Zapata viviera con los muertos estuviera",
+    "subtitle": "Reflexiones a siete años del Movimiento por la Paz con Justicia y Dignidad",
+    "date": "2020/01/01",
+    "infoEdition":"In Torres, René. En busca de la democracia. Pensando la movilización social en tiempos de grandes cambios. Universidad Iberoamericana. México",
+    "url": "",
+    "extra": "",
+    "type": "article",
+    "peer": true
+  },
+  {
     "title": "Originalidad del plagio",
     "subtitle":"Elogio de la tesis de Yasmín Esquivel, de Edgar Ulises Báez",
     "date": "2023/01/18",
@@ -50,14 +60,14 @@
     "peer": false
   },
   {
-    "title": "Si Zapata viviera con los muertos estuviera",
-    "subtitle": "Reflexiones a siete años del Movimiento por la Paz con Justicia y Dignidad",
-    "date": "2020/01/01",
-    "infoEdition":"In Torres, René. En busca de la democracia. Pensando la movilización social en tiempos de grandes cambios. Universidad Iberoamericana. México",
-    "url": "",
+    "title": "Es deber del líder repetirse",
+    "subtitle":"Números, estribillos y obsesiones del discurso presidencial",
+    "date": "2024/04/14",
+    "infoEdition":"Animal Político", 
+    "url": "https://animalpolitico.com/analisis/invitades/discurso-presidencial-conferencias-mananeras",
     "extra": "",
     "type": "article",
-    "peer": true
+    "peer": false
   },
   {
     "title": "Manifiesto por la desaparición de las palabras",

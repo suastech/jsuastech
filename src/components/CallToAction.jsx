@@ -75,7 +75,7 @@ export default function CallToAction() {
     }
 
     <Container maxWidth="sm" className={isLoading? "disabled-box":""}>
-      Any idea to colaborate? Looking forward to hear from you:
+      Any idea to collaborate? Looking forward to hearing from you:
 
         <Typography
           variant="h3 "

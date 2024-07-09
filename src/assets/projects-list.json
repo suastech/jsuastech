@@ -33,7 +33,7 @@
   {
     "title": "Artist Connection",
     "image": ["/artistV.png", "/artist.png"],
-    "description":  ["On this project I teamed up with my colleague and super talented programmer Greg.",
+    "description":  ["On this project I teamed up with my talented colleague Greg.",
                      "The site simulates a social network that allows you to directly contact your local artists. Users can register as artists offering their services, or just as music-lovers looking to contact an artist.", 
                      "Users can book concerts and find on the map the events closest to their location thanks to the geolocation system.",
                      "We incorporated web sockets technology, which allowed us to build a real-time chat as well as a system to receive notifications as you are online.",

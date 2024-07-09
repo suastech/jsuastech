@@ -7,18 +7,16 @@ export default function Navbar() {
     <nav className='box-background'>
       
       <div className='item-navbar'>
-          <NavLink to="/" className={({ isActive }) => (isActive ? 'active' : 'inactive')}
-          >Coding</NavLink>
+        <NavLink to="/" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>
+        Coding
+        </NavLink>
       </div>
       <div className='item-navbar'>
-        <NavLink to="/academia" className={({ isActive }) => (isActive ? 'active' : 'inactive')}
-        >
-        Academia</NavLink>
+        <NavLink to="/academia" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>
+        Academia
+        </NavLink>
       </div>
-      <div className='item-navbar'>
-     
-      </div>
- 
+       
     </nav>
   )
 }

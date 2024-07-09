@@ -44,8 +44,8 @@ export default function Academia() {
           </Link>
         </div>
         
-        <h5>I am a sociologist and philosopher based in Berlin. I have published refereed articles and political analysis in various journals. I have conducted research on social movements.
-            I am an author of a book.
+        <h5>I´m a sociologist and philosopher based in Berlin. I have published peer-reviewed articles and political analysis in various journals. I have conducted research on social movements.
+            I´m an author of a book.
             In my PhD I focused on the study of the financial system and the money creation process.
         </h5>
 
