@@ -7,7 +7,7 @@ export default function Navbar() {
     <nav className='box-background'>
       
       <div className='item-navbar'>
-        <NavLink to="/" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>
+        <NavLink to="/coding" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>
         Coding
         </NavLink>
       </div>

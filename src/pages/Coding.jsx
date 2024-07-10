@@ -1,6 +1,6 @@
 import '../styles/Coding.css';
-import CarouselProjects from './CarouselProjects';
-import CallToAction from './CallToAction';
+import CarouselProjects from '../components/CarouselProjects';
+import CallToAction from '../components/CallToAction';
 import cvImage from '../assets/images/cv.png'
 import { Link } from 'react-router-dom';
 import about from '../mySelf'
