@@ -16,13 +16,13 @@
   {
     "title": "Amlo Dice",
     "image": ["/amlodiceV.png", "./amlodice.png"],
-    "description":  ["This site is a search engine that allows users to find text strings within a database of more than 2400 official speeches of the Mexican presidency.",
+    "description":  ["This search engine  allows users to find strings within a database of more than 2400 official speeches of the Mexican presidency.",
                       "It counts the number of repetitions for each year and shows the exact quote in which context it was said.",
-                      "Users can download the data of frequent searches in xml or csv, as well as a report with all the quotations of a certain string.",
+                      "Users can download the data of frequent searches in xml or csv, as well as a report with all the quotations of a given string.",
                       "To download the transcripts I use Pupeteer and convert them into a Postgresql database.",
                       "An extra feature I enjoyed developing is my own encryption system to generate unique passwords that validate the requests to the database and expire in about 10 seconds."],
     "highlights": ["Serverless functions", "Encryption System", "Chart JS"],
-    "githubLink": "https://github.com/suastech/discursosamlo",
+    "githubLink": "https://github.com/suastech/discursosamlo",  
     "deployLink": "https://amlodice.vercel.app/",
     "techs": ["React", "Prisma", "PostgreSql", "Chart JS", "Puppeteer"]
   },
