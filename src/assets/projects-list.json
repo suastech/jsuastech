@@ -1,14 +1,53 @@
 [
   {
+    "title": "Artist Connection",
+    "image": ["/artistV.png", "/artist.png"],
+    "description":  [
+                     "This site simulates a social network that allows you to directly contact your local artists. Users can sign up as artists offering their services, or as music-lovers looking to contact an artist.", 
+                     "Users can book concerts and find on the map the events closest to their location thanks to the geolocation system.",
+                     "We incorporated web sockets to build a real-time chat as well as a system to receive notifications as you are online.",
+                     "Our project was selected to participate in the Hackshow, organized by Ironhack."
+                    ],
+    "highlights": ["Geolocation", "Real-Time Chat and Notifications"],
+    "githubLink": "https://github.com/orgs/mitte-script-society/repositories",
+    "deployLink": "https://artist-connection.netlify.app/",
+    "techs": ["React", "MongoDB", "Express", "NodeJS", "Socket.io", "Mongoose", "Tailwind"]
+  },
+  {
     "title": "Amlo Dice",
     "image": ["/amlodiceV.png", "./amlodice.png"],
-    "description":  ["This site is a search engine that allows users to find text strings within a database of more than 2600 official speeches of the Mexican presidency.",
-                      "It counts the number of repetitions for each year and shows the exact quote in which it was said.", "Useres can download the data of frequent searches in xml or csv, as well as a report with all the quotations of a certain string.",
-                      "To download the transcripts I used Pupeteer and converted them into a Postgresql database.",
-                      "An extra feature I enjoyed developing is my own encrypted system of passwords that validate database calls and expire in about 5 seconds."],
+    "description":  ["This site is a search engine that allows users to find text strings within a database of more than 2400 official speeches of the Mexican presidency.",
+                      "It counts the number of repetitions for each year and shows the exact quote in which context it was said.",
+                      "Users can download the data of frequent searches in xml or csv, as well as a report with all the quotations of a certain string.",
+                      "To download the transcripts I use Pupeteer and convert them into a Postgresql database.",
+                      "An extra feature I enjoyed developing is my own encryption system to generate unique passwords that validate the requests to the database and expire in about 10 seconds."],
+    "highlights": ["Serverless functions", "Encryption System", "Chart JS"],
     "githubLink": "https://github.com/suastech/discursosamlo",
     "deployLink": "https://amlodice.vercel.app/",
     "techs": ["React", "Prisma", "PostgreSql", "Chart JS", "Puppeteer"]
+  },
+  {
+    "title": "The Points System",
+    "image": ["/pointsV.png", "/points.png"],
+    "description":  [ "The Points System rates people's performance in their love relationships.",
+                      "Just enter your data and it will generate a report that (not so) scientifically and (not entirely) objectively measures your (extraordinary) qualities as a partner.", "In addition to NextJs, I use the CryptoJS library to create and read the link with the information tailored to each user's request.",
+                      "You are welcome to visit the site and find out your relationship score."
+                    ],
+    "highlights": [ "It was fun to simulate that the site is hacking your personal data (messages from your ex included) in a retro style"],             
+    "githubLink": "https://github.com/suastech/the-points-system",
+    "deployLink": "https://the-points-system.netlify.app/",
+    "techs": ["NextJS", "CryptoJS", "Recharts"]
+  },
+  {
+    "title": "Bibliotopía",
+    "image": ["/bibliotopiaV.png", "/bibliotopia.png"],
+    "description":  ["In 2021 I created Bibliotopía, an independent publisher specializing in social science and philosophy books. This project has led me to translate books from English and French, as well as to work with publishers and authors from various countries around the world.",
+                     "The site displays the publisher's catalog, the details of each book, and allows users to download the digital version or purchase the printed book.",
+                     "Digital PDF files are hosted on Cloudinary"
+                ],
+    "githubLink": "https://github.com/suastech/bibliotopia",
+    "deployLink": "https://bibliotopia.net",
+    "techs": ["React", "Cloudinary"]
   },
   {
     "title": "El Terraplanista",
@@ -29,29 +68,5 @@
     "githubLink": "https://github.com/suastech/contracanto",
     "deployLink": "https://suastech.github.io/contracanto/",
     "techs": ["React"]
-  },
-  {
-    "title": "Artist Connection",
-    "image": ["/artistV.png", "/artist.png"],
-    "description":  ["On this project I teamed up with my talented colleague Greg.",
-                     "The site simulates a social network that allows you to directly contact your local artists. Users can register as artists offering their services, or just as music-lovers looking to contact an artist.", 
-                     "Users can book concerts and find on the map the events closest to their location thanks to the geolocation system.",
-                     "We incorporated web sockets technology, which allowed us to build a real-time chat as well as a system to receive notifications as you are online.",
-                     "Our project was selected to participate in the Hackshow, organized by Ironhack."
-                    ],
-    "githubLink": "https://github.com/orgs/mitte-script-society/repositories",
-    "deployLink": "https://artist-connection.netlify.app/",
-    "techs": ["React", "MongoDB", "Express", "NodeJS", "Socket.io", "Mongoose", "Tailwind"]
-  },
-  {
-    "title": "The Points System",
-    "image": ["/pointsV.png", "/points.png"],
-    "description":  ["The Points System rates people's performance in their love relationships.",
-                      "Just enter your data and it will generate a report that (not so) scientifically and (not entirely) objectively measures your (extraordinary) qualities as a partner.", "In addition to NextJs, I use the CryptoJS library to create and read the link with the information tailored to each user's request.",
-                      " You are welcome to visit the site and find out your relationship score on The Points System.",
-                      "The most fun was creating the simulation that the site is hacking your personal data (messages from your ex included) in a retro style."],
-    "githubLink": "https://github.com/suastech/the-points-system",
-    "deployLink": "https://the-points-system.netlify.app/",
-    "techs": ["React", "NextJS", "Recharts"]
-  }
+  }  
 ]

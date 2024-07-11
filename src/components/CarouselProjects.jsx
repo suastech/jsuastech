@@ -1,13 +1,12 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "../styles/Carousel.css";
 import { Carousel } from "react-responsive-carousel";
-import projects from "../assets/projects-list.json";
 import github from "../assets/images/github.png";
 import open from "../assets/images/open2.png";
 
 import { useEffect, useState } from "react";
 
-function CarouselProjects() {
+function CarouselProjects({projects}) {
   const [size, setSize] = useState(0);
 
   useEffect(() => {
@@ -43,7 +42,6 @@ return (
     <Carousel
       infiniteLoop={true}
       interval={5000}
-      autoPlay={true}
       stopOnHover={true}
       renderThumbs={renderThumbs}
       showStatus={false}
@@ -53,12 +51,21 @@ return (
       <div key={index} className="project-card">
         
         <div className="project-header">
+          
           <div style={{display:"flex", alignItems:""}}>
             <a href={project.deployLink} target="_blank">{project.title}</a>
             <a href={project.deployLink} target="_blank" style={{marginTop:"5px"}}><div id="open-container"><img style={{width:"100%", hight:"auto"}} src={open} alt="open-icon"/></div></a>
           </div>
 
           <a href={project.githubLink} target="_blank" id="github-container" ><img id="github-logo"src={github} alt="githubIcon"/></a>
+        </div>
+
+        <div className="slide-footer">
+            {project.techs.map( (element, index) => {
+              return (
+                <div className="tech-item" key={index}>{element}</div>
+              )
+            })}
         </div>
 
         <div className="body-project-space">
@@ -72,18 +79,15 @@ return (
               return(
                <li className="paragraph" key={index}>{paragraph}</li>
               )
-            })
+              })
             }
+            {project?.highlights && (
+              <div className="highlights"> <b>Highlights:&nbsp; </b> {project.highlights.map(element => (
+                  <>{element}. </>
+                ))}
+              </div>
+             )}
           </ul>
-
-        </div>
-
-        <div className="slide-footer">
-            {project.techs.map( (element, index) => {
-              return (
-                <div className="tech-item" key={index}>{element}</div>
-              )
-            })}
         </div>
 
       </div>

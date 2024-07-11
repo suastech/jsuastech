@@ -38,7 +38,7 @@ export default function Academia() {
 
         <div className='personal-header' onClick={ () => {setIsAbout(prev => !prev)}}>
           <h1>About</h1>
-          <img src={arrow} className={isAbout? 'rotate-arrow': ''}/>
+          <img src={arrow} className={isAbout? 'rotate-arrow': ''} style={{transition:"1s"}}/>
           <Link to="/cv/academia" className="link-cv-academia">     
             <img src={cvImage} className='cv-academia' style={{height:"35px", width: "auto", marginTop:"15px"}} />
           </Link>
@@ -65,20 +65,20 @@ export default function Academia() {
        
         <div className='list-type-box' onClick={() => setBookOpen(prev => !prev)}>
           <h2>Books</h2>
-          <img src={arrow} className={bookOpen? "rotate-arrow": ""}/>
+          <img src={arrow} className={bookOpen? "rotate-arrow": ""} style={{transition:"1s"}}/>
         </div>
         {bookOpen && <ul>{books.map((item, index) => renderItem({ item, index }))}</ul> }
 
 
         <div className='list-type-box' onClick={() => setPeerOpen(prev => !prev)}>
           <h2>Peer-reviewed articles</h2>
-          <img src={arrow} className={peerOpen? "rotate-arrow": "" }/>
+          <img src={arrow} className={peerOpen? "rotate-arrow": "" } style={{transition:"1s"}}/>
         </div>
         {peerOpen && <ul>{peerArticles.map((item, index) => renderItem({ item, index }))}</ul> }
 
         <div className='list-type-box' onClick={() => setArticleOpen(prev => !prev)}>
           <h2>Other articles</h2>
-          <img src={arrow} className={articleOpen? "rotate-arrow": ""} />
+          <img src={arrow} className={articleOpen? "rotate-arrow": ""} style={{transition:"1s"}}/>
         </div>
         {articleOpen && <ul>{otherArticles.map((item, index) => renderItem({ item, index }))}</ul>}
 

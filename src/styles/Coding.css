@@ -11,8 +11,8 @@
 .box-title {
   margin-bottom: 10px;
   display: flex;
-  align-items: end;
-  font-size: 40px;
+  align-items: last baseline;
+  font-size: 50px;
   font-weight: 400;
 }
 .box-title h1 {
@@ -51,6 +51,16 @@
 .info-extra p {
   margin: 10px 20px;
   font-size: 18px;
+}
+.techs-container {
+  margin-top: 10px;
+  font-weight: 700;
+}
+.techs-list {
+  margin-top: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: 100;
 }
 
 .carousel-container {
@@ -129,6 +139,9 @@
 }
 
 @media screen and (max-width: 600px) {
+  .box-title{
+    font-size: 30px;
+  }
   .input-wrap {
     display: block;
   }

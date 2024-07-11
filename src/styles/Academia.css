@@ -85,8 +85,9 @@ h6 {
   margin-left: 15px;
   padding-top: 3px;
 }
+
 .rotate-arrow {
-  transform: rotate(90deg);
+  transform: rotate(180deg);
 }
 
 .publication-item a {

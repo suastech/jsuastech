@@ -45,7 +45,7 @@ body {
 
 .side-open {
   flex-direction: column;
-  background-color: #170037;
+  background-color: #46e70246;
   padding: 0 10px;
   transform: translate(10px, -10px);
 }
