@@ -41,7 +41,8 @@
   {
     "title": "Bibliotopía",
     "image": ["/bibliotopiaV.png", "/bibliotopia.png"],
-    "description":  ["In 2021 I created Bibliotopía, an independent publisher specializing in social science and philosophy books. This project has led me to translate books from English and French, as well as to work with publishers and authors from various countries around the world.",
+    "description":  [
+                      "In 2021 I created Bibliotopía, an independent publisher specializing in social science and philosophy books. This project has led me to translate books from English and French, as well as to work with publishers and authors from various countries around the world.",
                      "The site displays the publisher's catalog, the details of each book, and allows users to download the digital version or purchase the printed book.",
                      "Digital PDF files are hosted on Cloudinary"
                 ],

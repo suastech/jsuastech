@@ -60,21 +60,28 @@ return (
           <a href={project.githubLink} target="_blank" id="github-container" ><img id="github-logo"src={github} alt="githubIcon"/></a>
         </div>
 
-        <div className="slide-footer">
-            {project.techs.map( (element, index) => {
-              return (
-                <div className="tech-item" key={index}>{element}</div>
-              )
-            })}
-        </div>
-
         <div className="body-project-space">
 
           <div className="image-project-container">
              <img src={project.image[size]} alt={`slide_${index}`}/>
           </div>
 
+          <div className="slide-footer small-screen">
+            {project.techs.map( (element, index) => {
+              return (
+                <div className="tech-item" key={index}>{element}</div>
+              )
+            })}
+          </div>
+
           <ul className="project-description">
+          <div className="slide-footer big-screen">
+            {project.techs.map( (element, index) => {
+              return (
+                <div className="tech-item" key={index}>{element}</div>
+              )
+            })}
+        </div>
             {project.description.map( (paragraph, index) => {
               return(
                <li className="paragraph" key={index}>{paragraph}</li>
