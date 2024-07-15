@@ -29,14 +29,15 @@
   {
     "title": "The Points System",
     "image": ["/pointsV.png", "/points.png"],
-    "description":  [ "The Points System rates people's performance in their love relationships.",
+    "description":  [ "I wanted to apply Next JS and TypeScript in a real project, and I found in this joke an opportunity to do it.",
+                      "The Points System rates people's performance in their love relationships.",
                       "Just enter your data and it will generate a report that (not so) scientifically and (not entirely) objectively measures your (extraordinary) qualities as a partner.", "In addition to NextJs, I use the CryptoJS library to create and read the link with the information tailored to each user's request.",
                       "You are welcome to visit the site and find out your relationship score."
                     ],
     "highlights": [ "It was fun to simulate that the site is hacking your personal data (messages from your ex included) in a retro style"],             
     "githubLink": "https://github.com/suastech/the-points-system",
     "deployLink": "https://the-points-system.netlify.app/",
-    "techs": ["NextJS", "CryptoJS", "Recharts"]
+    "techs": ["NextJS", "TypeScript", "CryptoJS", "Recharts"]
   },
   {
     "title": "Bibliotopía",
