@@ -34,13 +34,13 @@ export default function Coding() {
 
           <div className='info-extra'>
               <div> <b>What I´m good at...</b>
-                  <p>Logical reasoning. I like to solve problems that require creativity.</p>
+                  <p>Logical reasoning. I like solving problems that require creativity.</p>
                   <p>I´m not afraid to undertake complex projects and take on new challenges.</p>
-                  <p>I learn fast. I´m perseverant and I deliver on time.</p>
+                  <p>I´m a fast learner, perseverant, and deliver on time.</p>
               </div>
               <div> <b>What I´m bad at...</b>
                   <p>When I speak German, the portraits of Goethe all over Germany cry out in pain.</p>
-                  <p>CSS has caused me to have numerous rage attacks.</p>
+                  <p>CSS has caused me to have numerous anger attacks.</p>
               </div>
           </div>
 

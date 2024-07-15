@@ -44,9 +44,8 @@ export default function Academia() {
           </Link>
         </div>
         
-        <h5>I´m a sociologist and philosopher based in Berlin. I have published peer-reviewed articles and political analysis in various journals. I have conducted research on social movements.
-            I´m an author of a book.
-            In my PhD I focused on the study of the financial system and the money creation process.
+        <h5>I´m a sociologist and philosopher based in Berlin. I have published several peer-reviewed articles and political analysis in various journals. I have conducted research on social movements and I´m the author of a book.
+            In my PhD I focused on the study of the financial system and the process of monetary creation.
         </h5>
 
         <h4>Education</h4>
@@ -55,7 +54,7 @@ export default function Academia() {
 
         <h4>Awards and distinctions</h4>
           <h6>Winner of the 2021 CASP Essay Prize, for the article “From Commodities to Assets”. Review of Capital as Power. York University. Toronto.</h6>
-          <h6>Honorable Mention, XV National Award of Political Essay “Guillermo Rousset Banda”, to the book El País del Dolor. Historia del Movimiento por la paz con Justicia y Dignidad.  Mexico, 2018.</h6>
+          <h6>Honorable Mention, XV National Award of Political Essay “Guillermo Rousset Banda” for the book El País del Dolor. Historia del Movimiento por la paz con Justicia y Dignidad.  Mexico, 2018.</h6>
           <h6>Graduated with Honors. MA in Philosophy, with the thesis “The Political Philosophy of Gilles Deleuze”. National Autonomous University of Mexico, 2014.</h6>
      
       </div>
