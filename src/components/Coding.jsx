@@ -36,11 +36,11 @@ export default function Coding() {
               <div> <b>What I´m good at...</b>
                   <p>Logical reasoning. I like solving problems that require creativity.</p>
                   <p>I´m not afraid to undertake complex projects and take on new challenges.</p>
-                  <p>I´m a fast learner, perseverant, and deliver on time.</p>
+                  <p>I can spend hours coding just for the fun.</p>
               </div>
               <div> <b>What I´m bad at...</b>
                   <p>When I speak German, the portraits of Goethe all over Germany cry out in pain.</p>
-                  <p>CSS has caused me to have numerous anger attacks.</p>
+                  <p>I recently started boxing. God forbid I have to fight one day.</p>
               </div>
           </div>
 
