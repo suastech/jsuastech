@@ -10,7 +10,7 @@
                     ],
     "highlights": ["Geolocation", "Real-Time Chat and Notifications"],
     "githubLink": "https://github.com/orgs/mitte-script-society/repositories",
-    "deployLink": "https://artist-connection.netlify.app/",
+    "deployLink": "https://artist-connection-dev.netlify.app/",
     "techs": ["React", "MongoDB", "Express", "NodeJS", "Socket.io", "Mongoose", "Tailwind"]
   },
   {
