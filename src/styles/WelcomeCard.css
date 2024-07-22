@@ -1,0 +1,42 @@
+
+#welcome-card {
+  background-color: rgb(17, 0, 37);
+  color: rgb(255, 255, 255);
+  display: flex;
+  font-size: 30px;
+  position: absolute;
+  transition: transform 4s ease;
+  height: 100%;
+}
+
+.stickman-left {
+  border: none;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  right: -200px;
+}
+
+.move-left {
+  transform: translateX(-110%);
+}
+
+.move-right {
+  transform: translateX(100%);
+}
+
+#welcome-card img {
+  margin: auto auto;
+  height: 300px;
+  border-radius: 0px;
+  
+}
+
+.welcome-info {
+  margin: auto 0 auto 20px;
+}
+
+.welcome-card p {
+  margin: 5px 0;
+
+}

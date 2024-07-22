@@ -67,7 +67,7 @@ export default function Coding() {
       </div>
 
       <div className='generic-box'>
-        <div className='box-title'>Projects&nbsp;<span style={{fontSize: ".4em"}}>(sorted by complexity)</span></div>
+        <div className='box-title' id='projects'>Projects&nbsp;<span style={{fontSize: ".4em"}}>(sorted by complexity)</span></div>
         <CarouselProjects projects={projects}/>
       </div>
 
