@@ -16,6 +16,11 @@ export default function Navbar() {
         Academia
         </NavLink>
       </div>
+      <div className='item-navbar'>
+        <NavLink to="/writings" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>
+          Writings
+        </NavLink>
+      </div>
        
     </nav>
   )

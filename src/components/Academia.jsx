@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import cvImage from '../assets/images/cv.png'
 
 
-function renderItem({item, index}) {
+export function renderItem({item, index}) {
   return (
     <li key={index} className='publication-item'>
       <a href={item.url} target='_blank'>
@@ -85,3 +85,4 @@ export default function Academia() {
     </section>
   );
 }
+

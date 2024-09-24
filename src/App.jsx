@@ -7,6 +7,7 @@ import PDFViewer from './components/PDFViewer';
 
 import WelcomeCard from './components/WelcomeCard';
 import SideMenu from './components/SideMenu';
+import Articles from './components/Articles';
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
         <Route path="/" element={<Coding/>}  />
         <Route path="/academia" element={<Academia/>} />
         <Route path="/cv/:type" element={<PDFViewer/>} />
+        <Route path="/writings" element={<Articles/>} />
       </Routes>
 
 

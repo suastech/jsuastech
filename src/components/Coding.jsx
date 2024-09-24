@@ -51,7 +51,7 @@ export default function Coding() {
               </div>
               <div> <b>What I´m bad at...</b>
                   <p>When I speak German, the portraits of Goethe all over Germany cry out in pain.</p>
-                  <p>I recently started boxing. God forbid I have to fight one day.</p>
+                  <p>I recently started boxing. Let´s say I´m not invincible.</p>
               </div>
           </div>
 
