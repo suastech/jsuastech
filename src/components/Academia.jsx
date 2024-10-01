@@ -5,16 +5,23 @@ import arrow from '../assets/images/arrow.png'
 import { Link } from 'react-router-dom';
 import cvImage from '../assets/images/cv.png'
 
+function fixDate(dateStr) {
+  const meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+  const [year, month, day] = dateStr.split("/");
+  return `${meses[parseInt(month) - 1]} de ${year}`;
+}
 
 export function renderItem({item, index}) {
+
   return (
     <li key={index} className='publication-item'>
       <a href={item.url} target='_blank'>
-        <i> {item.title}.&nbsp;
+        <i style={{fontWeight:'300'}}> {item.title}.&nbsp;
             {item.subtitle.length > 0? `${item.subtitle}. `:``}
         </i>
         {item.infoEdition.length >0 ? `${item.infoEdition}. `: ``}
         {item.extra.length >0 ? `${item.extra}. `: ``}
+        {fixDate(item.date)}
 
       </a>
     </li>

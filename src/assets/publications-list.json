@@ -1,5 +1,16 @@
 [
   {
+    "title": "Instantáneas de la oposición",
+    "subtitle":"Imágenes de un desfiguro sexenal",
+    "date": "2024/09/29",
+    "infoEdition":"Pie de Página. México",
+    "url": "https://piedepagina.mx/instantaneas-de-la-oposicion-imagenes-de-un-desfiguro-sexenal/",
+    "extra": "",
+    "type": "article",
+    "peer": null,
+    "selected": true
+  },
+  {
     "title": "El país del dolor",
     "subtitle":"Historia del Movimiento por la Paz con Justicia y Dignidad",
     "date": "2017/12/01",
@@ -7,7 +18,7 @@
     "url": "https://www.amazon.de/-/en/Jes%C3%BAs-Suaste-Cherizola-ebook/dp/B07C48H74B",
     "extra": "",
     "type": "book",
-    "peer": null,
+    "peer": false,
     "selected": true
   },
   {

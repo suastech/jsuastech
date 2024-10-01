@@ -15,7 +15,7 @@ export default function WelcomeCard() {
   return (
       <div id='welcome-card'>
         <iframe src="https://giphy.com/embed/KanCFLCba1f5UAqAxX" className="stickman-left"></iframe>
-          <img src={me}/>
+        <img src={me}/>
         <div className='welcome-info'>
           <p>Welcome!</p>
           <p>I am a web developer and sociologist based in Berlin. </p>
@@ -23,7 +23,6 @@ export default function WelcomeCard() {
           <button onClick={() => handleShift("left")}>Coding</button>
           <button onClick={() => handleShift("right")}>Academia</button>
         </div>
-
       </div>
   )
 }

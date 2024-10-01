@@ -10,11 +10,9 @@ import SideMenu from './components/SideMenu';
 import Articles from './components/Articles';
 
 function App() {
-
   return (
-    <> 
-{/*       <WelcomeCard/>
- */}
+    <>
+      {/*<WelcomeCard/>*/}
       <Navbar/>
       <SideMenu/>
       <Routes>
